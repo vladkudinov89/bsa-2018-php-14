@@ -1,0 +1,26 @@
+@import "bourbon"
+
+//Colors
+$color-a : #969494
+$color-hover : #000
+
+//Transitions
+$tr-a : 0.3s linear
+
+%top_nav
+	li
+		text-transform: uppercase
+		a
+			color: $color-a
+			text-decoration: none
+			transition: $tr-a
+			&:hover
+				color: $color-hover
+				
+%top_search
+	a
+		color: $color-a
+		text-decoration: none
+		transition: $tr-a
+		&:hover
+			color: $color-hover
