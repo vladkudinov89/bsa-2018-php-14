@@ -1,0 +1,75 @@
+footer
+	background-color: #333333
+	
+.footer-widget-section
+	display: flex
+	flex-direction: row
+	flex-wrap: wrap
+	justify-content: space-around
+	
+.footer-widget
+	padding: 70px 0
+	width: 30%
+	color: #fff
+
+.footer-desr
+	.footer-content
+		padding-top: 35px
+		line-height: 24px
+	
+	.footer-contact
+		padding-top: 20px
+		h4
+			margin: 10px 0
+			text-transform: uppercase
+			font-size: 18px
+		p
+			margin-bottom: 10px
+		@extend %footer_hover
+		
+		.footer-addres:before
+			font-family: "Font Awesome 5 Free Regular"
+			content: "\f2b9"
+			padding-right: 5px
+			font-size: 16px
+		
+		.footer-phone:before
+			font-family: "Font Awesome 5 Free Solid"
+			content: "\f095"
+			padding-right: 5px
+			font-size: 16px
+			
+		.footer-mail:before
+			font-family: "Font Awesome 5 Free Regular"
+			content: "\f0e0"
+			padding-right: 5px
+			font-size: 16px
+		
+
+.footer-custom-post
+	h3
+		color: #ffffff
+	.footer-post-title
+		a
+			color: #fff
+			text-transform: uppercase
+			display: block
+			font-size: 14px
+			text-decoration: none
+			font-weight: 600
+			padding-top: 15px
+			transition: all 0.33s
+			transition: $tr-a
+			&:hover
+				color: $color-article-h
+	.footer-post-date
+		margin-top: 10px
+		span
+			font-style: italic
+			font-size: 12px
+.footer-copyright
+	background-color: #222222
+	color: #fff
+	padding: 10px 0
+	p
+		text-align: center
