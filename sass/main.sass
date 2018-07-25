@@ -4,6 +4,8 @@
 @import "fonts.sass"
 
 //Custom Styles Here
+*
+	box-sizing: border-box
 body
 	font-size: 16px
 	min-width: 320px
@@ -19,7 +21,7 @@ body
 	margin-right: auto
 	padding-left: 15px
 	padding-right: 15px
-	outline: 1px solid green
+	//outline: 1px solid green
 
 .row
 	margin-left: -15px
@@ -28,6 +30,11 @@ body
 .clearfix
 	content: ''
 	clear: both
+	display: block
+	height: 0
+	font-size: 0
+	overflow: hidden
+	
 //ALWAYS END
 @import "header"
 @import "wrapper"
